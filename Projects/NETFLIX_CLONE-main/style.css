@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    height: 100vh;
+    width: 100%;
+    /* background-color: bisque; */
+    /* background-image: url(./img/homepage.jpg); */
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(./img/homepage.jpg);
+    border-bottom: 10px solid gray;
+    
+}
+
+.containt{
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.container img{
+    height: 40px;
+    opacity: none;
+}
+
+.containt select{
+    padding: 8px;
+    background: none;
+    color: white;
+    border-color: white;
+    
+}
+
+.containt button{
+    padding:10px 20px;
+    background-color: rgb(196, 28, 28);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 25px;
+}
+
+
+.serch-bar{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%
+    /* margin: auto; */
+}
+
+.serch-bar h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    
+
+
+}
+
+.serch-bar h2{
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 20px;
+
+
+}
+
+.serch-bar p{
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+
+}
+
+section{
+    width: 805px;
+    display: flex;
+    outline: none;
+    justify-content: center;
+}
+
+section input{
+    padding: 10px;
+    width: 600px;
+    border-color: none;
+    width: 500px;
+    /* margin: auto; */
+    border: 2px solid red;
+}
+
+section button{
+    padding: 12px;
+    background-color: red;
+    /* width: 180px; */
+    color: white;
+    font-size: 24px;
+   
+    
+}
+
+.card-2{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 50px;
+    
+    
+    
+}
+
+.card-2 .text h1{
+    width: 600px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+
+    
+    
+  
+    
+  
+}
+.card-2 .text h3{
+    width: 500px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 20px;
+
+
+}
+
+.card-2 img{
+    
+    height: 400px;
+
+    
+    
+}
+
+
+.card-3{
+    height:80vh;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+}
+
+.card-3 .cards-1{
+    
+    /* background-color: black; */
+    color: white;
+    margin: 80px;
+    
+}
+
+.card-3 .cards-2{
+   
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards-2 h1, h3{
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+.section{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    border-bottom: 10px solid gray;
+
+}
+
+.section img{
+    height: 300px;
+    /* overflow: auto; */
+    
+}
+
+
+
+.section h1{
+    
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 45px; */
+
+}
+.section h3{
+
+    width: 450px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    /* font-size: 26px; */
+    font-weight: 400;
+    margin-top: 20px;
+    /* background-color: green; */
+
+}
+
+.section .text-section{
+
+    /* background-color: green; */
+    /* width: 400px; */
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* faq-card--------------------------- */
+
+
+.faq-card{
+    height: 130vh;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    background-color: black ;
+
+    border-bottom: 10px solid gray;
+    
+}
+
+.faq-card h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+
+
+.faq-card .button-bar{
+    margin: 5px;
+
+    padding: 20px 30px  ;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #303030;
+    font-size: 25px;
+
+
+
+}
+
+
+
+
+
+/* foot-bar---------------- */
+
+.footer{
+
+    /* height: 120vh; */
+    width: 100%;
+    background-color: black
+
+}
+
+
+.foot-bar{
+    max-width: 60%;
+    margin:  auto;
+    padding-top: 100px;
+    overflow: auto;
+    /* background-color: aqua; */
+   
+
+}
+
+.foot-bar a{
+
+    color: #9999;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    
+
+}
+
+.foot-bar p{
+
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    color: #9999;
+    font-family: 'Roboto', sans-serif;
+}
+
+.foot-bar .footer-cols{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+.footer-cols{
+    line-height: 2rem;
+}
+
+.select{
+    padding: 15px 20px;
+    background-color: #303030;
+    color: white;
+    border: none;
+    /* border-color: 2px solid white; */
+    border-radius: 10px;
+    margin: 5px;
+
+
+}
+
+
+@media ( max-width: 786px){
+
+
+
+    .container{
+
+        height: 80vh;
+    }
+
+
+    .section{
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        
+
+
+       
+    }
+
+    .section{
+        width: 100%;
+        height: 60vh;
+        
+        justify-content:center ;
+        text-align: center;
+
+
+    }
+
+    .section h3{
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .section h1{
+        width: 90%;
+        margin: auto;
+        /* font-size: 20px; */
+
+
+    
+
+}
+
+.faq-card h1{
+    font-size: 40px;
+}
+
+
+ .faq-card .button-bar{
+
+
+    width: 600px;
+ }
+
+
+.serch-section{
+    height: 20vh;
+}
+
+.faq-card{
+    height: 90vh;
+}
+
+.reverse-section{
+
+    flex-direction: column-reverse;
+
+   
+}
+
+section{
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    
+}
+
+
+section button{
+    margin: 20px;
+    border: none;
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
